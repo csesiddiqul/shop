@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/orioplus/public_html/shop
+    - /bin/cp * $DEPLOYPATH
